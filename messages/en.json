@@ -1,0 +1,32 @@
+{
+  "Common": {
+    "PhoneNumber": "Phone Number",
+    "Fanpage": "Fanpage",
+    "Home": "Home",
+    "Contact": "Contact",
+    "Services": "Services",
+    "Modification": "Modification",
+    "CompanyName": "Company Name"
+  },
+  "LandingPage": {
+    "Title": "LandingPage",
+    "Subtitle": "Subtitle",
+    "Description": "Description",
+    "Service_1": "Service 1",
+    "Service_2": "Service 2",
+    "Service_3": "Service 3",
+    "Service_4": "Service 4",
+    "Service_5": "Service 5",
+    "Service_6": "Service 6",
+    "Key_1": "Lorem ipsum dolor sit",
+    "Key_2": "Lorem ipsum dolor sit 2",
+    "Key_3": "Lorem ipsum dolor sit 3",
+    "Key_4": "Lorem ipsum dolor sit 4",
+    "Key_5": "Lorem ipsum dolor sit 5",
+    "Key_6": "Lorem ipsum dolor sit 6",
+    "Key_7": "Lorem ipsum dolor sit 7",
+    "Key_8": "Lorem ipsum dolor sit 8",
+    "Key_9": "Lorem ipsum dolor sit 9",
+    "Key_10": "Lorem ipsum dolor sit 10"
+  }
+}
