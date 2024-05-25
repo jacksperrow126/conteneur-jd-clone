@@ -1,9 +1,9 @@
 import { useTranslations } from 'next-intl';
 import { config } from '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/fontawesome-svg-core/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
-import Breadcrumb from '../components/common/breadcrumb';
+import Breadcrumb from '@/app/components/common/breadcrumb';
+import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
 export default function Home() {

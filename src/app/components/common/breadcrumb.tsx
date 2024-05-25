@@ -1,4 +1,3 @@
-
 const Breadcrumb = ({ title }: Readonly<{
     title: string;
 }>) => {

@@ -1,8 +1,8 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import AOSProvider from "../aos-provider";
-import Footer from "../components/common/footer";
-import Header from "../components/common/header";
+import AOSProvider from "@/app/aos-provider";
+import Footer from "@/app/components/common/footer";
+import Header from "@/app/components/common/header";
 
 export default async function LocaleLayout({
   children,
