@@ -1,12 +1,12 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import AOSProvider from "@/app/aos-provider";
-import Footer from "@/app/components/common/footer";
-import Header from "@/app/components/common/header";
+import AOSProvider from '@/app/aos-provider';
+import Footer from '@/app/components/common/footer';
+import Header from '@/app/components/common/header';
 
 export default async function LocaleLayout({
   children,
-  params: { locale }
+  params: { locale },
 }: {
   children: React.ReactNode;
   params: { locale: string };
@@ -19,7 +19,8 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <Header />
           <AOSProvider>
-            <div className='content'>{children}</div></AOSProvider>
+            <div className="content">{children}</div>
+          </AOSProvider>
           <Footer />
         </NextIntlClientProvider>
       </body>
