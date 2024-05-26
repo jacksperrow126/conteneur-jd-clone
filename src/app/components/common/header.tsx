@@ -49,13 +49,13 @@ const Header = () => {
                 <Link href="/">{t('Home')}</Link>
               </li>
               <li className="mr-4 hover:text-primary font-bold">
-                <Link href="/services">{t('Services')}</Link>
+                <Link href="/en/services">{t('Services')}</Link>
               </li>
               <li className="mr-4 hover:text-primary font-bold">
-                <Link href="/modification">{t('Modification')}</Link>
+                <Link href="/en/modification">{t('Modification')}</Link>
               </li>
               <li className="mr-4 hover:text-primary font-bold">
-                <Link href="/contact">{t('Contact')}</Link>
+                <Link href="/en/contact">{t('Contact')}</Link>
               </li>
             </ul>
           </nav>
