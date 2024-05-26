@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import Breadcrumb from '@/app/components/common/breadcrumb';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import ContactInfo from '../components/contact/contact-info';
+import Form from '../components/contact/form';
 config.autoAddCss = false;
 
 export default function Home() {
@@ -38,10 +40,10 @@ export default function Home() {
       </div>
       <h1 className="text-[50px] text-center font-bold m-6">{t('Key_1')}</h1>
       <div className="flex justify-center">
-        <div className="max-w-[1400px]">
+        <div className="max-w-[1400px] md:p-32 p-2">
           {/* Section 1 */}
 
-          <section className="flex p-4 m-20 md:flex-row flex-col">
+          <section className="flex p-4  md:flex-row flex-col">
             <div className="text-left m-2">
               <h1 data-aos="fade-up" data-aos-delay="100" className="text-[40px] font-bold">
                 {t('Key_2')}
@@ -80,11 +82,11 @@ export default function Home() {
 
           {/* Section 2 */}
 
-          <section data-aos="fade-up" data-aos-duration="1000" className="text-center m-20 ">
+          <section data-aos="fade-up" data-aos-duration="1000" className="text-center  ">
             <p className="text-primary text-[20px] uppercase">{t('Key_5')}</p>
             <p className="text-black text-[40px] font-bold">{t('Key_6')}</p>
             <p className="text-gray-100 text-[20px]">{t('Key_7')}</p>
-            <div className="m-20 grid md:grid-cols-3 grid-cols-1">
+            <div className=" grid md:grid-cols-3 grid-cols-1">
               <div className="text-[20px] uppercase bg-primary p-2 border-dashed border-2 border-[white] text-white">
                 {t('Service_1')}
               </div>
@@ -108,7 +110,7 @@ export default function Home() {
 
           {/* Section 3 */}
 
-          <section className="m-20">
+          <section className="">
             <div className="flex md:flex-row flex-col">
               <div
                 className="bg-[url('https://conteneurjd.com/wp-content/uploads/2023/06/tout-cote-boite-conteneur-rouge-vide-au-cargo1.jpg')] bg-no-repeat bg-contain bg-center 
@@ -149,7 +151,7 @@ export default function Home() {
 
           {/* Section 4 */}
 
-          <section className="m-20">
+          <section className="">
             <div className="text-center">
               <p className="text-primary text-[20px] uppercase" data-aos="fade-up">
                 {t('Key_5')}
@@ -165,7 +167,7 @@ export default function Home() {
 
           {/* Section 5 */}
 
-          <section className="m-20">
+          <section className="">
             <div className="flex md:flex-row flex-col">
               <div
                 className="bg-[url('https://conteneurjd.com/wp-content/uploads/2023/06/homme-soudeur.jpg')] bg-no-repeat bg-contain bg-center 
@@ -178,6 +180,17 @@ export default function Home() {
                 <p className="text-gray-100 text-[20px]">{t('Key_7')}</p>
                 <p className="text-gray-100 text-[18px]">{t('Key_7')}</p>
               </div>
+            </div>
+          </section>
+
+          {/* Section 6 */}
+
+          <section className="flex  md:flex-row flex-col">
+            <div className="flex-1">
+              <ContactInfo />
+            </div>
+            <div className="flex-1">
+              <Form />
             </div>
           </section>
         </div>

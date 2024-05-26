@@ -3,7 +3,7 @@
     "PhoneNumber": "Phone Number",
     "Fanpage": "Fanpage",
     "Home": "Home",
-    "Contact": "Contact",
+    "Contact": "Contact Us",
     "Services": "Services",
     "Modification": "Modification",
     "CompanyName": "Company Name",
@@ -29,5 +29,14 @@
     "Key_8": "Lorem ipsum dolor sit 8",
     "Key_9": "Lorem ipsum dolor sit 9",
     "Key_10": "Lorem ipsum dolor sit 10"
+  },
+  "Contact": {
+    "ContactInfo": "Contact Info",
+    "ContactForm": "Contact Form",
+    "Address": "Address",
+    "Email": "Email",
+    "Phone": "Phone",
+    "Name": "Name",
+    "Message": "Message"
   }
 }

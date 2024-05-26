@@ -1,6 +1,6 @@
 'use client';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faF } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex  px-8 justify-between w-full header-border items-center">
+      <div className="flex  px-32 justify-between w-full header-border items-center">
         <div className="flex">
           <p>{t('PhoneNumber')}:</p>
           <p className="font-bold ml-2">0000</p>
@@ -38,7 +38,7 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="fixed-header py-8 px-4 bg-white z-10">
+      <div className="fixed-header py-8 px-32 bg-white z-10">
         <div className="flex  justify-between">
           <div className="flex justify-center text-primary ">
             <h1 className="text-lg">{t('CompanyName')}</h1>
