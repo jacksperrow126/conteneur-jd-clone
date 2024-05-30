@@ -20,10 +20,10 @@ const Contact = () => {
             alt="sss"
           />
         </div>
-        <div data-aos="fade-right" data-aos-delay="1000">
+        <div data-aos="fade-right" className="m-auto" data-aos-delay="1000">
           <p className="text-primary">ON FAIT DU SUR MESURE</p>
           <h1 className="text-[30px] font-bold my-4">La modification de conteneur c&apos;est pratique pour vous.</h1>
-          <p>
+          <p className="text-xl">
             Découvrez nos services de modification de conteneur de marchandise sur mesure, conçus pour répondre à vos
             besoins spécifiques. Que ce soit l&apos;aménagement intérieur pour optimiser l&apos;espace de stockage,
             l&apos;installation de systèmes de refroidissement pour les produits sensibles ou la création de
