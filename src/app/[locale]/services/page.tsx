@@ -10,7 +10,7 @@ const Contact = () => {
 
   return (
     <div className="">
-      <Breadcrumb title="Contact" />
+      <Breadcrumb title={t('Title')} />
       <div className=" grid grid-cols-1 md:grid-cols-2 mt-16 md:px-32 p-2">
         {[
           {
