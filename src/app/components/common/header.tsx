@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
+import { Link } from '@/navigation';
 const Header = () => {
   const t = useTranslations('Common');
   const [isShowMobileMenu, setIsShowMobileMenu] = useState(false);
@@ -49,13 +49,13 @@ const Header = () => {
                 <Link href="/">{t('Home')}</Link>
               </li>
               <li className="mr-4 hover:text-primary font-bold">
-                <Link href="/en/services">{t('Services')}</Link>
+                <Link href="/services">{t('Services')}</Link>
               </li>
               <li className="mr-4 hover:text-primary font-bold">
-                <Link href="/en/modification">{t('Modification')}</Link>
+                <Link href="/modification">{t('Modification')}</Link>
               </li>
               <li className="mr-4 hover:text-primary font-bold">
-                <Link href="/en/contact">{t('Contact')}</Link>
+                <Link href="/contact">{t('Contact')}</Link>
               </li>
             </ul>
           </nav>
