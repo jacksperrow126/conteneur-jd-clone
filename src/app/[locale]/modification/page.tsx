@@ -1,3 +1,4 @@
+import Banner from '@/app/components/common/banner';
 import Breadcrumb from '@/app/components/common/breadcrumb';
 import Carousel from '@/app/components/common/carousel';
 import ContactInfo from '@/app/components/contact/contact-info';
@@ -24,18 +25,7 @@ const Contact = () => {
             }}
           />
         </div>
-        <div data-aos="fade-right" className="m-auto" data-aos-delay="1000">
-          <p className="text-primary">ON FAIT DU SUR MESURE</p>
-          <h1 className="text-[30px] font-bold my-4">La modification de conteneur c&apos;est pratique pour vous.</h1>
-          <p className="text-xl">
-            Découvrez nos services de modification de conteneur de marchandise sur mesure, conçus pour répondre à vos
-            besoins spécifiques. Que ce soit l&apos;aménagement intérieur pour optimiser l&apos;espace de stockage,
-            l&apos;installation de systèmes de refroidissement pour les produits sensibles ou la création de
-            compartiments sécurisés, notre équipe expérimentée est là pour vous fournir des solutions sur mesure. Avec
-            notre expertise, vous pouvez améliorer votre efficacité logistique, assurer la sécurité de vos marchandises
-            et répondre aux exigences spécifiques de votre activité.
-          </p>
-        </div>
+        <Banner />
       </div>
       <div className="max-[850px]:block flex justify-between items-center  min-h-[232px] bg-primary py-16 px-16 mt-16">
         <p className="text-[30px] font-bold text-white"> FAITES MODIFIER VOTRE CONTENEUR AUJOURD&apos;HUI !</p>

@@ -16,37 +16,37 @@ const Contact = () => {
           {
             title: t('Service_1'),
             description: t('Key_1'),
-            url: '/service_1',
+            url: 'services/1',
             img: 'https://conteneurjd.com/wp-content/uploads/2023/06/ct-20pieds-dry-mini.png',
           },
           {
             title: t('Service_2'),
             description: t('Key_2'),
-            url: '/service_1',
+            url: 'services/2',
             img: 'https://conteneurjd.com/wp-content/uploads/2023/06/ct-20pieds-dry-mini.png',
           },
           {
             title: t('Service_3'),
             description: t('Key_3'),
-            url: '/service_1',
+            url: 'services/3',
             img: 'https://conteneurjd.com/wp-content/uploads/2023/06/ct-20pieds-dry-mini.png',
           },
           {
             title: t('Service_4'),
             description: t('Key_4'),
-            url: '/service_1',
+            url: 'services/4',
             img: 'https://conteneurjd.com/wp-content/uploads/2023/06/conteneurs-40-pieds-high-cube-1.png',
           },
           {
             title: t('Service_5'),
             description: t('Key_5'),
-            url: '/service_1',
+            url: 'services/5',
             img: '	https://conteneurjd.com/wp-content/uploads/2023/06/conteneur-avec-porte-laterale-2.png',
           },
           {
             title: t('Service_6'),
             description: t('Key_6'),
-            url: '/service_1',
+            url: 'services/6',
             img: 'https://conteneurjd.com/wp-content/uploads/2023/06/conteneur-frigorifique.png',
           },
         ].map((item, idx) => {
