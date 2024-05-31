@@ -40,10 +40,10 @@ export default function Home() {
       </div>
       <h1 className="text-[50px] text-center font-bold m-6">{t('Key_1')}</h1>
       <div className="flex justify-center">
-        <div className="max-w-[1400px] md:p-32 p-2">
+        <div className="max-w-[1400px]">
           {/* Section 1 */}
 
-          <section className="flex p-4  md:flex-row flex-col">
+          <section className="md:p-32 p-2 flex p-4  md:flex-row flex-col">
             <div className="text-left m-2">
               <h1 data-aos="fade-up" data-aos-delay="100" className="text-[40px] font-bold">
                 {t('Key_2')}
@@ -82,7 +82,7 @@ export default function Home() {
 
           {/* Section 2 */}
 
-          <section data-aos="fade-up" data-aos-duration="1000" className="text-center  ">
+          <section data-aos="fade-up" data-aos-duration="1000" className="md:p-32 p-2 text-center  ">
             <p className="text-primary text-[20px] uppercase">{t('Key_5')}</p>
             <p className="text-black text-[40px] font-bold">{t('Key_6')}</p>
             <p className="text-gray-100 text-[20px]">{t('Key_7')}</p>
@@ -110,7 +110,7 @@ export default function Home() {
 
           {/* Section 3 */}
 
-          <section className="">
+          <section className="md:p-32 p-2 ">
             <div className="flex md:flex-row flex-col">
               <div
                 className="bg-[url('https://conteneurjd.com/wp-content/uploads/2023/06/tout-cote-boite-conteneur-rouge-vide-au-cargo1.jpg')] bg-no-repeat bg-contain bg-center 
@@ -151,7 +151,7 @@ export default function Home() {
 
           {/* Section 4 */}
 
-          <section className="">
+          <section className="md:p-32 p-2 ">
             <div className="text-center">
               <p className="text-primary text-[20px] uppercase" data-aos="fade-up">
                 {t('Key_5')}
@@ -167,7 +167,7 @@ export default function Home() {
 
           {/* Section 5 */}
 
-          <section className="">
+          <section className="md:p-32 p-2 ">
             <div className="flex md:flex-row flex-col">
               <div
                 className="bg-[url('https://conteneurjd.com/wp-content/uploads/2023/06/homme-soudeur.jpg')] bg-no-repeat bg-contain bg-center 
@@ -185,7 +185,7 @@ export default function Home() {
 
           {/* Section 6 */}
 
-          <section className="flex  md:flex-row flex-col">
+          <section className="md:p-32 p-2 flex  md:flex-row flex-col">
             <div className="flex-1">
               <ContactInfo />
             </div>

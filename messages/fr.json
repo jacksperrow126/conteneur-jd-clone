@@ -38,5 +38,41 @@
     "Phone": "Phone FR",
     "Name": "Name",
     "Message": "Message"
+  },
+  "Services": {
+    "Title": "Services FR",
+    "Subtitle": "Subtitle FR",
+    "Description": "Description FR",
+    "Service_1": "Service 1 FR",
+    "Service_2": "Service 2 FR",
+    "Service_3": "Service 3 FR",
+    "Service_4": "Service 4 FR",
+    "Service_5": "Service 5 FR",
+    "Service_6": "Service 6 FR",
+    "Key_1": "Lorem ipsum dolor sit FR",
+    "Key_2": "Lorem ipsum dolor sit FR 2",
+    "Key_3": "Lorem ipsum dolor sit FR 3",
+    "Key_4": "Lorem ipsum dolor sit FR 4",
+    "Key_5": "Lorem ipsum dolor sit FR 5",
+    "Key_6": "Lorem ipsum dolor sit FR 6",
+    "Key_7": "Lorem ipsum dolor sit FR 7",
+    "Key_8": "Lorem ipsum dolor sit FR 8",
+    "Key_9": "Lorem ipsum dolor sit FR 9",
+    "Key_10": "Lorem ipsum dolor sit FR 10"
+  },
+  "Modification": {
+    "Title": "Modification FR",
+    "Subtitle": "Subtitle FR",
+    "Description": "Description FR",
+    "Key_1": "Lorem ipsum dolor sit FR",
+    "Key_2": "Lorem ipsum dolor sit FR 2",
+    "Key_3": "Lorem ipsum dolor sit FR 3",
+    "Key_4": "Lorem ipsum dolor sit FR 4",
+    "Key_5": "Lorem ipsum dolor sit FR 5",
+    "Key_6": "Lorem ipsum dolor sit FR 6",
+    "Key_7": "Lorem ipsum dolor sit FR 7",
+    "Key_8": "Lorem ipsum dolor sit FR 8",
+    "Key_9": "Lorem ipsum dolor sit FR 9",
+    "Key_10": "Lorem ipsum dolor sit FR 10"
   }
 }
