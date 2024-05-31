@@ -1,5 +1,6 @@
 import Banner from '@/app/components/common/banner';
 import Breadcrumb from '@/app/components/common/breadcrumb';
+import Carousel from '@/app/components/common/carousel';
 import ContactInfo from '@/app/components/contact/contact-info';
 import Form from '@/app/components/contact/form';
 import { useTranslations } from 'next-intl';
