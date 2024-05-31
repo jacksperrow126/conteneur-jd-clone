@@ -19,6 +19,7 @@
     "flowbite": "^2.3.0",
     "next": "14.2.3",
     "next-intl": "^3.14.0",
+    "next-recaptcha-v3": "^1.4.1",
     "react": "^18",
     "react-dom": "^18"
   },
