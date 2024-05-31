@@ -15,7 +15,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <body className="no-scrollbar">
         <NextIntlClientProvider messages={messages}>
           <Header />
           <AOSProvider>

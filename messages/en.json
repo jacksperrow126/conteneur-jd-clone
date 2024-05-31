@@ -37,7 +37,8 @@
     "Email": "Email",
     "Phone": "Phone",
     "Name": "Name",
-    "Message": "Message"
+    "Message": "Message",
+    "Send": "Send"
   },
   "Services": {
     "Title": "Services",
