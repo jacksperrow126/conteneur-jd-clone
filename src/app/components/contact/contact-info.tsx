@@ -5,8 +5,9 @@ import React from 'react';
 
 const ContactInfo = () => {
   const t = useTranslations('Contact');
+
   return (
-    <div className="w-full" data-aos="fade-left">
+    <div data-aos="fade-left">
       <h1 className="text-[30px] font-bold mb-8">{t('ContactInfo')}</h1>
       <div className="m-4 flex mb-8">
         <div className="w-[50px]">

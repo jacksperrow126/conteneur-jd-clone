@@ -47,7 +47,7 @@ export default function Home() {
         <div className="max-w-[1400px]">
           {/* Section 1 */}
 
-          <section className="md:px-32 py-12 flex p-4  md:flex-row flex-col">
+          <section className="md:px-32 py-12 px-2 flex  md:flex-row flex-col">
             <div className="text-left m-2">
               <h1 data-aos="fade-up" data-aos-delay="100" className="text-[40px] font-bold">
                 {t('Key_2')}
@@ -59,25 +59,25 @@ export default function Home() {
                 {t('Key_4')}
               </p>
             </div>
-            <div className="flex ">
+            <div className="flex justify-center">
               <div
                 data-aos="fade-up"
                 data-aos-delay="100"
-                className="md:text-[160px] text-[20vw] p-4 bg-primary mr-2 font-bold text-white flex items-center"
+                className="md:text-[160px] text-[18vw] p-4 bg-primary mr-2 font-bold text-white flex items-center"
               >
                 10
               </div>
               <div
                 data-aos="fade-up"
                 data-aos-delay="200"
-                className="md:text-[160px] text-[20vw] p-4 bg-primary mr-2 font-bold text-white flex items-center"
+                className="md:text-[160px] text-[18vw] p-4 bg-primary mr-2 font-bold text-white flex items-center"
               >
                 20
               </div>
               <div
                 data-aos="fade-up"
                 data-aos-delay="300"
-                className="md:text-[160px] text-[20vw] p-4 bg-primary mr-2 font-bold text-white flex items-center"
+                className="md:text-[160px] text-[18vw] p-4 bg-primary font-bold text-white flex items-center"
               >
                 40
               </div>
@@ -86,7 +86,7 @@ export default function Home() {
 
           {/* Section 2 */}
 
-          <section data-aos="fade-up" data-aos-duration="1000" className="md:px-32 py-12 p-2 text-center  ">
+          <section data-aos="fade-up" data-aos-duration="1000" className="md:px-32 py-12 px-2 text-center">
             <p className="text-primary text-[20px] uppercase">{t('Key_5')}</p>
             <p className="text-black text-[40px] font-bold">{t('Key_6')}</p>
             <p className="text-gray-100 text-[20px]">{t('Key_7')}</p>
@@ -114,7 +114,7 @@ export default function Home() {
 
           {/* Section 3 */}
 
-          <section className="md:px-32 py-12 p-2 ">
+          <section className="md:px-32 py-12 px-2">
             <div className="flex md:flex-row flex-col">
               <div
                 className="bg-[url('https://conteneurjd.com/wp-content/uploads/2023/06/tout-cote-boite-conteneur-rouge-vide-au-cargo1.jpg')] bg-no-repeat bg-contain bg-center 
@@ -155,7 +155,7 @@ export default function Home() {
 
           {/* Section 4 */}
 
-          <section className="md:px-32 py-12 p-2 ">
+          <section className="md:px-32 py-12 px-2 ">
             <div className="text-center">
               <p className="text-primary text-[20px] uppercase" data-aos="fade-up">
                 {t('Key_5')}
@@ -226,29 +226,27 @@ export default function Home() {
 
           {/* Section 5 */}
 
-          <section className="md:px-32 py-12 p-2 ">
-            <div className="flex md:flex-row flex-col">
+          <section className="md:px-32 py-12 p-2">
+            <div className="grid md:grid-cols-2 grid-cols-1">
               <div
                 className="bg-[url('https://conteneurjd.com/wp-content/uploads/2023/06/homme-soudeur.jpg')] bg-no-repeat bg-contain bg-center 
-              md:flex-1 h-[500px] w-full"
+              h-[400px]"
                 data-aos="fade-right"
               />
-              <div className="md:flex-1 p-12" data-aos="fade-left">
-                <p className="text-primary text-[20px] uppercase">{t('Key_5')}</p>
+              <div className="" data-aos="fade-left">
+                {/* <p className="text-primary text-[20px] uppercase">{t('Key_5')}</p>
                 <p className="text-black text-[40px] font-bold">{t('Key_6')}</p>
                 <p className="text-gray-100 text-[20px]">{t('Key_7')}</p>
-                <p className="text-gray-100 text-[18px]">{t('Key_7')}</p>
+                <p className="text-gray-100 text-[18px]">{t('Key_7')}</p> */}
               </div>
             </div>
           </section>
 
           {/* Section 6 */}
 
-          <section className="md:px-32 py-12 p-2 flex  md:flex-row flex-col">
-            <div className="flex-1">
-              <ContactInfo />
-            </div>
-            <div className="flex-1">
+          <section className="md:px-32 py-12 px-2 grid md:grid-cols-2 grid-cols-1">
+            <div className="px-2">{/* <ContactInfo /> */}</div>
+            <div className="px-2">
               <Form />
             </div>
           </section>
