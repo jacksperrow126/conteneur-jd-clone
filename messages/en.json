@@ -1,6 +1,6 @@
 {
   "Common": {
-    "PhoneNumber": "Phone Number",
+    "PhoneNumber": "Ventes / Services:",
     "Fanpage": "Fanpage",
     "Home": "Home",
     "Contact": "Contact Us",
@@ -10,9 +10,9 @@
     "Slogan": "Lorem ipsum dolor sit"
   },
   "LandingPage": {
-    "Title": "LandingPage",
-    "Subtitle": "Subtitle",
-    "Description": "Description",
+    "Title": "conteneurs",
+    "Subtitle": "Nous vendons des",
+    "Description": "Des conteneurs sur mesure pour répondre à tous vos besoins logistiques",
     "Service_1": "Service 1",
     "Service_2": "Service 2",
     "Service_3": "Service 3",

@@ -4,6 +4,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 import { Link } from '@/navigation';
+import { MdArrowRightAlt } from 'react-icons/md';
+import { BiLogoFacebook } from 'react-icons/bi';
+import Image from 'next/image';
 const Header = () => {
   const t = useTranslations('Common');
   const [isShowMobileMenu, setIsShowMobileMenu] = useState(false);
@@ -26,35 +29,49 @@ const Header = () => {
   return (
     <>
       <div className="flex md:px-32 px-2 justify-between w-full header-border items-center">
-        <div className="flex">
+        <div className="flex text-sm">
           <p>{t('PhoneNumber')}:</p>
-          <p className="font-bold ml-2">0000</p>
+          <a className="text-decoration-none hover:text-primary" href="tel:(514) 269-7537">
+            <p className="font-bold ml-2">(514) 269-7537</p>
+          </a>
         </div>
         <div className="items-center md:flex hidden">
+          <BiLogoFacebook />
           <Link href="/contact">
-            <div className="bg-primary p-4 btn-triangle">
+            <div
+              className="bg-primary p-3 btn-triangle font-bold h-[54px] w-[167px] flex items-center justify-evenly ml-4"
+              style={{
+                clipPath: 'polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 0%)',
+              }}
+            >
               <p className="text-white font-bold">{t('Contact')}</p>
+              <MdArrowRightAlt color="white" />
             </div>
           </Link>
         </div>
       </div>
-      <div className="fixed-header py-8 md:px-32 px-2 bg-white z-10">
-        <div className="flex  justify-between">
+      <div className="fixed-header py-4 md:px-32 px-2 bg-white z-10">
+        <div className="flex  justify-between items-center">
           <div className="flex justify-center text-primary ">
-            <h1 className="text-lg">{t('CompanyName')}</h1>
+            <Image
+              width={140}
+              height={90}
+              src="https://conteneurjd.com/wp-content/uploads/2023/06/LOGOMODIFIE-05.svg"
+              alt=""
+            />
           </div>
           <nav className="md:block hidden">
             <ul className="flex justify-center font-bold">
-              <li className="mr-4 hover:text-primary font-bold ">
+              <li className="px-[20px] py-[30px] hover:text-primary font-bold ">
                 <Link href="/">{t('Home')}</Link>
               </li>
-              <li className="mr-4 hover:text-primary font-bold">
+              <li className="px-[20px] py-[30px] hover:text-primary font-bold">
                 <Link href="/services">{t('Services')}</Link>
               </li>
-              <li className="mr-4 hover:text-primary font-bold">
+              <li className="px-[20px] py-[30px] hover:text-primary font-bold">
                 <Link href="/modification">{t('Modification')}</Link>
               </li>
-              <li className="mr-4 hover:text-primary font-bold">
+              <li className="px-[20px] py-[30px] hover:text-primary font-bold">
                 <Link href="/contact">{t('Contact')}</Link>
               </li>
             </ul>

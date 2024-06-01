@@ -23,7 +23,7 @@ export default function Home() {
               {t('Subtitle')}
             </h3>
             <h1
-              className="xs:text-[9vw]  md:text-[7vw] font-bold  xl:text-[80px]"
+              className="xs:text-[9vw]  md:text-[7vw] font-extrabold  xl:text-[89px]"
               data-aos="fade-up"
               data-aos-delay="100"
             >
@@ -33,7 +33,7 @@ export default function Home() {
               {t('Description')}
             </p>
             <button
-              className="bg-primary rounded-md px-8 font-bold text-[12px] md:text-[20px]"
+              className="bg-primary rounded-md px-8 font-bold text-[12px] md:text-[20px] h-[57px] flex items-center m-auto"
               data-aos="zoom-in-up"
               data-aos-delay="300"
             >
