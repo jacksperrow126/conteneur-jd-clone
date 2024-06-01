@@ -86,7 +86,7 @@ export default function Home() {
 
           {/* Section 2 */}
 
-          <section data-aos="fade-up" data-aos-duration="1000" className="md:px-32 py-12 px-2 text-center">
+          <section data-aos="fade-up" data-aos-duration="1000" className="md:px-32 py-12 px-2 text-center my-10">
             <p className="text-primary text-[20px] uppercase">{t('Key_5')}</p>
             <p className="text-black text-[40px] font-bold">{t('Key_6')}</p>
             <p className="text-gray-100 text-[20px]">{t('Key_7')}</p>
@@ -155,7 +155,7 @@ export default function Home() {
 
           {/* Section 4 */}
 
-          <section className="md:px-32 py-12 px-2 ">
+          <section className="md:px-32 py-12 px-2 my-10">
             <div className="text-center">
               <p className="text-primary text-[20px] uppercase" data-aos="fade-up">
                 {t('Key_5')}
