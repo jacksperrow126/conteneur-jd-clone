@@ -11,11 +11,27 @@
 *::-webkit-scrollbar {
   display: none;
 }
+@font-face {
+  font-family: 'FontBold'; /*a name to be used later*/
+  src: url('https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2'); /*URL to font*/
+}
+@font-face {
+  font-family: 'FontThin'; /*a name to be used later*/
+  src: url('https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2'); /*URL to font*/
+}
 
 body {
   color: #222529;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'FontThin';
   width: 100%;
+}
+
+.font-bold {
+  font-family: 'FontBold';
+}
+
+.font-extrabold {
+  font-family: 'FontBold';
 }
 
 .sticky {

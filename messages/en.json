@@ -10,9 +10,10 @@
     "Slogan": "Lorem ipsum dolor sit"
   },
   "LandingPage": {
-    "Title": "LandingPage",
-    "Subtitle": "Subtitle",
-    "Description": "Description",
+    "Title": "conteneurs",
+    "Subtitle": "Nous vendons des",
+    "Description": "Des conteneurs sur mesure pour répondre à tous vos besoins logistiques",
+    "Button": "Voir les modeles",
     "Service_1": "20 PI. STANDARD",
     "Service_2": "40 PI. STANDARD",
     "Service_3": "40 PI. HIGH CUBE",
@@ -28,7 +29,14 @@
     "Key_7": "Vous avez besoin d'un conteneur en Gaspésie ou encore à Baie-James ? Peu importe l'endroit. Si une route se rend, votre conteneur peut s'y rendre aussi.",
     "Key_8": "UN CONTENEUR POUR LE STOCKAGE",
     "Key_9": "Un conteneur pour chacun de vos projets",
-    "Key_10": "Voici quelques utilisations courantes des conteneurs à marchandises :"
+    "Key_10": "Voici quelques utilisations courantes des conteneurs à marchandises :",
+    "Footer_1": "Vente de conteneurs maritimes",
+    "Footer_2": "Politique de confidentialité",
+    "Footer_3": "HEURES D'OUVERTURES",
+    "Footer_4": "Lun - Sam: 8:00am - 5:00 pm",
+    "Footer_5": "Dimanche: Fermé",
+    "Footer_6": "NOS CONTENEURS",
+    "Footer_7": "Conteneur JD 2023. Tous droits réservés - Propulsé par Le Gars D'Web"
   },
   "Contact": {
     "ContactInfo": "Contact Info",

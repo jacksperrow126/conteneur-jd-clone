@@ -30,16 +30,16 @@ const Header = () => {
     <>
       <div className="flex md:px-32 px-2 justify-between w-full header-border items-center">
         <div className="flex text-sm">
-          <p>{t('PhoneNumber')}:</p>
+          <p>{t('PhoneNumber')}</p>
           <a className="text-decoration-none hover:text-primary" href="tel:(514) 269-7537">
             <p className="font-bold ml-2">(514) 269-7537</p>
           </a>
         </div>
-        <div className="items-center md:flex hidden">
+        <div className="items-center flex">
           <BiLogoFacebook />
           <Link href="/contact">
             <div
-              className="bg-primary p-3 btn-triangle font-bold h-[54px] w-[167px] flex items-center justify-evenly ml-4"
+              className="bg-primary p-3 btn-triangle font-bold h-[54px] w-[167px] items-center justify-evenly ml-4 md:flex hidden"
               style={{
                 clipPath: 'polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 0%)',
               }}
@@ -50,7 +50,7 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="fixed-header py-4 md:px-32 px-2 bg-white z-10">
+      <div className="fixed-header py-2 md:px-32 px-2 bg-white z-10">
         <div className="flex  justify-between items-center">
           <div className="flex justify-center text-primary ">
             <Link href="/">
@@ -64,16 +64,16 @@ const Header = () => {
           </div>
           <nav className="md:block hidden">
             <ul className="flex justify-center font-bold">
-              <li className="px-[20px] py-[30px] hover:text-primary font-bold ">
+              <li className="px-[20px] py-[40px] hover:text-primary font-bold ">
                 <Link href="/">{t('Home')}</Link>
               </li>
-              <li className="px-[20px] py-[30px] hover:text-primary font-bold">
+              <li className="px-[20px] py-[40px] hover:text-primary font-bold">
                 <Link href="/services">{t('Services')}</Link>
               </li>
-              <li className="px-[20px] py-[30px] hover:text-primary font-bold">
+              <li className="px-[20px] py-[40px] hover:text-primary font-bold">
                 <Link href="/modification">{t('Modification')}</Link>
               </li>
-              <li className="px-[20px] py-[30px] hover:text-primary font-bold">
+              <li className="px-[20px] py-[40px] hover:text-primary font-bold">
                 <Link href="/contact">{t('Contact')}</Link>
               </li>
             </ul>

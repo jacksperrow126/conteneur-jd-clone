@@ -18,18 +18,18 @@ export default function Home() {
       bg-no-repeat bg-cover bg-center w-full sm:h-[60vw] h-[60vh] max-h-[800px] flex justify-center items-center"
       >
         <div className="w-[60%] h-[60%] min-w-[320px] max-w-[800px] bg-black bg-opacity-60 text-center text-white flex justify-center items-center">
-          <div className="xs:leading-[10vw] md:leading-[6vw]  xl:leading-[80px]">
-            <h3 className="xs:text-[7vw] md:text-[5vw] font-bold xl:text-[56px]" data-aos="fade-right">
+          <div className="md:leading-[60px] xl:leading-[80px] leading-[40px] flex flex-col items-center">
+            <p className="md:text-[45px] font-bold text-[27px]" data-aos="fade-right">
               {t('Subtitle')}
-            </h3>
-            <h1
-              className="xs:text-[9vw]  md:text-[7vw] font-extrabold  xl:text-[89px]"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+            </p>
+            <p className="md:text-[89px] font-extrabold text-[50px]" data-aos="fade-up" data-aos-delay="100">
               {t('Title')}
-            </h1>
-            <p data-aos="zoom-out" data-aos-delay="200" className="text-[12px] md:text-[20px]">
+            </p>
+            <p
+              data-aos="zoom-out"
+              data-aos-delay="200"
+              className="text-[12px] md:text-[20px] w-[80%] leading-[28px] p-4"
+            >
               {t('Description')}
             </p>
             <button
@@ -37,25 +37,28 @@ export default function Home() {
               data-aos="zoom-in-up"
               data-aos-delay="300"
             >
-              {t('Key_1')}
+              {t('Button')}
             </button>
           </div>
         </div>
       </div>
-      <h1 className="text-[50px] text-center font-bold m-6">{t('Key_1')}</h1>
+      <div className="flex justify-center">
+        <h1 className="text-[50px] font-bold m-6">{t('Key_1')}</h1>
+      </div>
+
       <div className="flex justify-center w-full">
-        <div className="max-w-[1400px]">
+        <div className="">
           {/* Section 1 */}
 
-          <section className="md:px-32 py-12 px-2 flex  md:flex-row flex-col">
-            <div className="text-left m-2">
+          <section className="md:px-24 xl:px-32 py-12 px-2 flex md:flex-row flex-col">
+            <div className="text-left m-2 min-w-[300px]">
               <h1 data-aos="fade-up" data-aos-delay="100" className="text-[40px] font-bold">
                 {t('Key_2')}
               </h1>
               <p data-aos="fade-up" data-aos-delay="200" className="text-[20px] font-bold text-primary my-2 uppercase">
                 {t('Key_3')}
               </p>
-              <p data-aos="fade-up" data-aos-delay="300" className="text-[20px] font-bold text-gray-100 my-2">
+              <p data-aos="fade-up" data-aos-delay="300" className="text-[20px] text-gray-100 my-2">
                 {t('Key_4')}
               </p>
             </div>
@@ -86,10 +89,13 @@ export default function Home() {
 
           {/* Section 2 */}
 
-          <section data-aos="fade-up" data-aos-duration="1000" className="md:px-32 py-12 px-2 text-center my-10">
+          <section className="md:px-24 xl:px-32 py-12 bg-space text-center" data-aos="fade-up">
             <p className="text-primary text-[20px] uppercase">{t('Key_5')}</p>
             <p className="text-black text-[40px] font-bold">{t('Key_6')}</p>
             <p className="text-gray-100 text-[20px]">{t('Key_7')}</p>
+          </section>
+
+          <section data-aos="fade-up" data-aos-duration="1000" className="md:px-24 xl:px-32 py-12 px-2 text-center">
             <div className=" grid md:grid-cols-3 grid-cols-1">
               <div className="text-[20px] uppercase bg-primary p-2 border-dashed border-2 border-[white] text-white">
                 {t('Service_1')}
@@ -114,37 +120,37 @@ export default function Home() {
 
           {/* Section 3 */}
 
-          <section className="md:px-32 py-12 px-2">
+          <section className="md:px-24 xl:px-32 py-12 px-2">
             <div className="flex md:flex-row flex-col">
               <div
                 className="bg-[url('https://conteneurjd.com/wp-content/uploads/2023/06/tout-cote-boite-conteneur-rouge-vide-au-cargo1.jpg')] bg-no-repeat bg-contain bg-center 
               md:flex-1 h-[500px] w-full"
                 data-aos="fade-right"
               />
-              <div className="md:flex-1 p-12" data-aos="fade-right">
+              <div className="md:flex-1 md:p-12 p-4" data-aos="fade-right">
                 <p className="text-primary text-[20px] uppercase">{t('Key_5')}</p>
                 <p className="text-black text-[40px] font-bold">{t('Key_6')}</p>
                 <p className="text-gray-100 text-[20px]">{t('Key_7')}</p>
                 <div className="mt-6">
-                  <p className="text-[20px] mt-4">
+                  <p className="text-[14px] mt-4">
                     <FontAwesomeIcon icon={faCheck} />
-                    <span className="ml-2"> {t('Key_8')}</span>
+                    <span className="ml-2"> {t('Key_10')}</span>
                   </p>
-                  <p className="text-[20px] mt-4">
+                  <p className="text-[14px] mt-4">
                     <FontAwesomeIcon icon={faCheck} />
-                    <span className="ml-2"> {t('Key_8')}</span>
+                    <span className="ml-2"> {t('Key_10')}</span>
                   </p>
-                  <p className="text-[20px] mt-4">
+                  <p className="text-[14px] mt-4">
                     <FontAwesomeIcon icon={faCheck} />
-                    <span className="ml-2"> {t('Key_8')}</span>
+                    <span className="ml-2"> {t('Key_10')}</span>
                   </p>
-                  <p className="text-[20px] mt-4">
+                  <p className="text-[14px] mt-4">
                     <FontAwesomeIcon icon={faCheck} />
-                    <span className="ml-2"> {t('Key_8')}</span>
+                    <span className="ml-2"> {t('Key_10')}</span>
                   </p>
-                  <p className="text-[20px] mt-4">
+                  <p className="text-[14px] mt-4">
                     <FontAwesomeIcon icon={faCheck} />
-                    <span className="ml-2"> {t('Key_8')}</span>
+                    <span className="ml-2"> {t('Key_10')}</span>
                   </p>
                 </div>
               </div>
@@ -155,7 +161,7 @@ export default function Home() {
 
           {/* Section 4 */}
 
-          <section className="md:px-32 py-12 px-2 my-10">
+          <section className="md:px-24 xl:px-32 py-12 px-2 my-10">
             <div className="text-center">
               <p className="text-primary text-[20px] uppercase" data-aos="fade-up">
                 {t('Key_5')}
@@ -226,26 +232,28 @@ export default function Home() {
 
           {/* Section 5 */}
 
-          <section className="md:px-32 py-12 p-2">
+          <section className="md:px-24 xl:px-32 py-12 p-2">
             <div className="grid md:grid-cols-2 grid-cols-1">
               <div
                 className="bg-[url('https://conteneurjd.com/wp-content/uploads/2023/06/homme-soudeur.jpg')] bg-no-repeat bg-contain bg-center 
               h-[400px]"
                 data-aos="fade-right"
               />
-              <div className="" data-aos="fade-left">
-                {/* <p className="text-primary text-[20px] uppercase">{t('Key_5')}</p>
+              <div className="p-8" data-aos="fade-right">
+                <p className="text-primary text-[20px] uppercase">{t('Key_5')}</p>
                 <p className="text-black text-[40px] font-bold">{t('Key_6')}</p>
                 <p className="text-gray-100 text-[20px]">{t('Key_7')}</p>
-                <p className="text-gray-100 text-[18px]">{t('Key_7')}</p> */}
+                <p className="text-gray-100 text-[18px]">{t('Key_7')}</p>
               </div>
             </div>
           </section>
 
           {/* Section 6 */}
 
-          <section className="md:px-32 py-12 px-2 grid md:grid-cols-2 grid-cols-1">
-            <div className="px-2">{/* <ContactInfo /> */}</div>
+          <section className="md:px-24 xl:px-32 py-12 px-2 grid md:grid-cols-2 grid-cols-1">
+            <div className="px-2">
+              <ContactInfo />
+            </div>
             <div className="px-2">
               <Form />
             </div>

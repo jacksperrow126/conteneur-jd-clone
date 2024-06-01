@@ -10,9 +10,10 @@
     "Slogan": "Lorem ipsum dolor sit FR"
   },
   "LandingPage": {
-    "Title": "LandingPage FR",
-    "Subtitle": "Subtitle FR",
-    "Description": "Description FR",
+    "Title": "conteneurs",
+    "Subtitle": "Nous vendons des",
+    "Description": "Des conteneurs sur mesure pour répondre à tous vos besoins logistiques",
+    "Button": "Voir les modeles",
     "Service_1": "20 PI. STANDARD fr",
     "Service_2": "40 PI. STANDARD fr",
     "Service_3": "40 PI. HIGH CUBE fr",
