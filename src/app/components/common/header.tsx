@@ -53,12 +53,14 @@ const Header = () => {
       <div className="fixed-header py-4 md:px-32 px-2 bg-white z-10">
         <div className="flex  justify-between items-center">
           <div className="flex justify-center text-primary ">
-            <Image
-              width={140}
-              height={90}
-              src="https://conteneurjd.com/wp-content/uploads/2023/06/LOGOMODIFIE-05.svg"
-              alt=""
-            />
+            <Link href="/">
+              <Image
+                width={140}
+                height={90}
+                src="https://conteneurjd.com/wp-content/uploads/2023/06/LOGOMODIFIE-05.svg"
+                alt=""
+              />
+            </Link>
           </div>
           <nav className="md:block hidden">
             <ul className="flex justify-center font-bold">
