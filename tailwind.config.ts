@@ -17,6 +17,11 @@ const config: Config = {
         200: '#4D4E50',
       },
     },
+    extend: {
+      // fontFamily: {
+      //   sans: ['var(--myFont)'],
+      // },
+    },
   },
   // plugins: [require('flowbite/plugin')],
 };
