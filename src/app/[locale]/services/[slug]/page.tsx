@@ -109,6 +109,39 @@ const Contact = () => {
           />
         </div>
       </div>
+      <div className=" md:px-32  bg-[#777] h-[288px] flex justify-center flex-col">
+        <div>
+          <h1 className="text-white text-[30px] text-center mb-6  ">Saviez-vous que ?</h1>
+          <div className="h-[110px] bg-white">
+            <Carousel
+              data={[
+                <div key="1">
+                  <h1 className="text-[30px] font-bold my-4 text-center px-20">
+                    La hauteur supplémentaire du High Cube permet d&apos;exploiter efficacement l&apos;espace vertical
+                    du conteneur, offrant ainsi un volume de chargement plus important par rapport à un conteneur
+                    standard.{' '}
+                  </h1>
+                </div>,
+                <div key="2">
+                  <h1 className="text-[30px] font-bold my-4 text-center px-20">
+                    Les conteneurs de 40 pieds High Cube sont conformes aux normes internationales. Ils sont compatibles
+                    avec les infrastructures de transport maritimes, ferroviaires et routières, ce qui facilite leur et
+                    leur transfert d&apos;un mode de transport à un autre.
+                  </h1>
+                </div>,
+                <div key="3">
+                  <h1 className="text-[30px] font-bold my-4 text-center px-20">
+                    L&apos;utilisation de conteneurs High Cube permet de réduire les coûts de transport en maximisant
+                    l&apos;espace de chargement. Le fait de pouvoir transporter davantage de marchandises dans un seul
+                    conteneur réduit le nombre de conteneurs nécessaires
+                  </h1>
+                </div>,
+              ]}
+              slidesPerView={1}
+            />
+          </div>
+        </div>
+      </div>
       <div className=" md:px-32 mt-10">
         <p className="text-primary">EN RÉSUMÉ</p>
         <h1 className="text-[30px] font-bold my-4">Le conteneur 20 pieds est standard et polyvalent</h1>

@@ -1,33 +1,34 @@
-/* eslint-disable @next/next/no-img-element */
-export default function Carousel() {
+'use client';
+
+import { Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+
+import { Swiper, SwiperProps, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
+import { ReactNode } from 'react';
+
+export default function Carousel({ data, ...SwiperProps }: { data: ReactNode[] } & SwiperProps) {
   return (
-    <div>
-      <div className="carousel w-full h-[500px]">
-        <div className="carousel-item w-1/4 mx-4">
-          <img src="https://conteneurjd.com/wp-content/uploads/2023/06/sa.jpg" className="w-full" />
-        </div>
-        <div className="carousel-item w-1/4 mx-4">
-          <img src="https://conteneurjd.com/wp-content/uploads/2023/06/81aFaCIBLmL.jpg" className="w-full" />
-        </div>
-        <div className="carousel-item w-1/4 mx-4">
-          <img src="https://conteneurjd.com/wp-content/uploads/2023/06/w1.jpg" className="w-full" />
-        </div>
-        <div className="carousel-item w-1/4 mx-4">
-          <img src="https://conteneurjd.com/wp-content/uploads/2023/06/81aFaCIBLmL.jpg" className="w-full" />
-        </div>
-        <div className="carousel-item w-1/4 mx-4">
-          <img src="https://conteneurjd.com/wp-content/uploads/2023/06/sa.jpg" className="w-full" />
-        </div>
-        <div className="carousel-item w-1/4 mx-4">
-          <img src="https://conteneurjd.com/wp-content/uploads/2023/06/xsq.jpg" className="w-full" />
-        </div>
-        <div className="carousel-item w-1/4 mx-4">
-          <img src="https://conteneurjd.com/wp-content/uploads/2023/06/w1.jpg" className="w-full" />
-        </div>
-        <div className="carousel-item w-1/4 mx-4">
-          <img src="	https://conteneurjd.com/wp-content/uploads/2023/06/sa.jpg" className="w-full" />
-        </div>
-      </div>
-    </div>
+    <Swiper
+      className="h-full"
+      // install Swiper modules
+      modules={[Pagination, Scrollbar, A11y, Autoplay]}
+      spaceBetween={50}
+      slidesPerView={3}
+      autoplay
+      loop
+      pagination={{ clickable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+      {...SwiperProps}
+    >
+      {data.map((item, idx) => (
+        <SwiperSlide key={idx}>{item}</SwiperSlide>
+      ))}
+    </Swiper>
   );
 }
