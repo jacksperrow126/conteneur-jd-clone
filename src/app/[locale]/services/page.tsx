@@ -80,7 +80,7 @@ const Contact = () => {
         <div className="flex-1">
           <ContactInfo />
         </div>
-        <div className="flex-1w">
+        <div className="flex-1">
           <Form />
         </div>
       </section>
