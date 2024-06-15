@@ -64,7 +64,30 @@ const Contact = () => {
           );
         })}
       </div>
-      <Carousel />
+      <div className="maxh-[400px]">
+        <Carousel
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
+          data={[
+            <img key="1" src="https://conteneurjd.com/wp-content/uploads/2023/06/sa.jpg" className="w-full" />,
+            <img key="2" src="https://conteneurjd.com/wp-content/uploads/2023/06/81aFaCIBLmL.jpg" className="w-full" />,
+            <img key="3" src="https://conteneurjd.com/wp-content/uploads/2023/06/w1.jpg" className="w-full" />,
+            <img key="4" src="https://conteneurjd.com/wp-content/uploads/2023/06/81aFaCIBLmL.jpg" className="w-full" />,
+          ]}
+        />
+      </div>
       <section className="flex  md:flex-row flex-col my-8">
         <div className="flex-1">
           <ContactInfo />
