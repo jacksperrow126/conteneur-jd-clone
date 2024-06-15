@@ -76,11 +76,11 @@ const Contact = () => {
           );
         })}
       </div>
-      <section className="flex  md:flex-row flex-col my-8">
+      <section className="flex  md:flex-row flex-col my-8 px-10">
         <div className="flex-1">
           <ContactInfo />
         </div>
-        <div className="flex-1">
+        <div className="flex-1w">
           <Form />
         </div>
       </section>
