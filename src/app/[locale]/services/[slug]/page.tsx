@@ -138,11 +138,13 @@ const Contact = () => {
                 </div>,
               ]}
               slidesPerView={1}
+              pagination={false}
+              navigation
             />
           </div>
         </div>
       </div>
-      <div className=" md:px-32 mt-10  px-10">
+      <div className=" md:px-32  pb-10 pt-20 bg-[#f7f7f7]">
         <p className="text-primary">EN RÉSUMÉ</p>
         <h1 className="text-[30px] font-bold my-4">Le conteneur 20 pieds est standard et polyvalent</h1>
         <p>
@@ -152,49 +154,41 @@ const Contact = () => {
           transporter une grande variété de marchandises et peuvent être équipés pour répondre aux besoins spécifiques
           de chaque entreprise ou individu.
         </p>
-        <div className="table w-full mt-10">
+        <div className="table w-full my-10 ">
           <div className="table-header-group ">
             <div className="table-row bg-[#4D4E50] text-white font-bold text-xl">
-              <div className="table-cell text-left ">EXTÉRIEURS</div>
-              <div className="table-cell text-left ">INTÉRIEUR</div>
-              <div className="table-cell text-left ">PORTE</div>
-              <div className="table-cell text-left ">CAPACITÉ</div>
+              <div className="table-cell text-left p-4">EXTÉRIEURS</div>
+              <div className="table-cell text-left p-4">INTÉRIEUR</div>
+              <div className="table-cell text-left p-4">PORTE</div>
+              <div className="table-cell text-left p-4">CAPACITÉ</div>
             </div>
           </div>
           <div className="table-row-group ">
             <div className="table-row  hover:bg-gray-100">
-              <div className="table-cell py-4">Longueur : 20 pi</div>
-              <div className="table-cell py-4"> Longueur : 19 pi, 9 po</div>
-              <div className="table-cell py-4"> Largeur : 7 pi, 8 po</div>
-              <div className="table-cell py-4"> 4900 lbs</div>
+              <div className="table-cell p-4">Longueur : 20 pi</div>
+              <div className="table-cell p-4"> Longueur : 19 pi, 9 po</div>
+              <div className="table-cell p-4"> Largeur : 7 pi, 8 po</div>
+              <div className="table-cell p-4"> 4900 lbs</div>
             </div>
           </div>
           <div className="table-row-group">
             <div className="table-row bg-[#f9f9f9] hover:bg-gray-100">
-              <div className="table-cell py-4 ">Longueur : 20 pi</div>
-              <div className="table-cell py-4 "> Longueur : 19 pi, 9 po</div>
-              <div className="table-cell py-4 "> Largeur : 7 pi, 8 po</div>
-              <div className="table-cell py-4 "> </div>
+              <div className="table-cell p-4 ">Longueur : 20 pi</div>
+              <div className="table-cell p-4 "> Longueur : 19 pi, 9 po</div>
+              <div className="table-cell p-4 "> Largeur : 7 pi, 8 po</div>
+              <div className="table-cell p-4 "> </div>
             </div>
           </div>
           <div className="table-row-group">
             <div className="table-row  hover:bg-gray-100">
-              <div className="table-cell py-4 ">Longueur : 20 pi</div>
-              <div className="table-cell py-4 "> Longueur : 19 pi, 9 po</div>
-              <div className="table-cell py-4 "></div>
-              <div className="table-cell py-4 "> </div>
+              <div className="table-cell p-4 ">Longueur : 20 pi</div>
+              <div className="table-cell p-4 "> Longueur : 19 pi, 9 po</div>
+              <div className="table-cell p-4 "></div>
+              <div className="table-cell p-4 "> </div>
             </div>
           </div>
         </div>
       </div>
-      <section className="flex  md:flex-row flex-col my-8  md:px-32  px-10">
-        <div className="flex-1">
-          <ContactInfo />
-        </div>
-        <div className="flex-1">
-          <Form />
-        </div>
-      </section>
     </div>
   );
 };
