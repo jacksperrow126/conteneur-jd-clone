@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <div className="">
       <Breadcrumb title={t('Title')} />
-      <div className="md:grid  block grid-cols-12 mt-16 gap-10 md:px-32">
+      <div className="md:grid  block grid-cols-12 mt-16 gap-10 md:px-32  px-10">
         <div className="col-span-6 md:col-span-5">
           <Image
             data-aos="fade-right"
@@ -42,7 +42,7 @@ const Contact = () => {
         </div>
       </div>
       <Banner />
-      <div className="md:grid  block grid-cols-12 mt-16 gap-10  md:px-32">
+      <div className="md:grid  block grid-cols-12 my-16 gap-10  md:px-32 px-10">
         <div data-aos="fade-right" className="m-auto col-span-6 md:col-span-7" data-aos-delay="1000">
           <p className="text-primary">ACHETEZ-LE NEUF OU USAGÉ</p>
           <h1 className="text-[30px] font-bold my-4">Caractéristiques du conteneur 20 pieds</h1>
@@ -142,7 +142,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className=" md:px-32 mt-10">
+      <div className=" md:px-32 mt-10  px-10">
         <p className="text-primary">EN RÉSUMÉ</p>
         <h1 className="text-[30px] font-bold my-4">Le conteneur 20 pieds est standard et polyvalent</h1>
         <p>
@@ -187,7 +187,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <section className="flex  md:flex-row flex-col my-8  md:px-32">
+      <section className="flex  md:flex-row flex-col my-8  md:px-32  px-10">
         <div className="flex-1">
           <ContactInfo />
         </div>

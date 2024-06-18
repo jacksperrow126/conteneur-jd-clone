@@ -8,9 +8,9 @@ import Link from 'next/link';
 
 const Contact = () => {
   return (
-    <div className="px-32">
+    <div className="">
       <Breadcrumb title="Contact" />
-      <div className=" grid grid-cols-1 lg:grid-cols-2 mt-16 gap-10">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 mt-16 gap-10 px-10">
         <div>
           <Image
             data-aos="fade-right"
@@ -33,7 +33,7 @@ const Contact = () => {
           OBTENIR UN DEVIS
         </button>
       </div>
-      <div className=" grid grid-cols-1 my-16 gap-10">
+      <div className=" grid grid-cols-1 my-16 gap-10 px-10">
         {[
           {
             title: 'Porte Roll Up:',
@@ -88,7 +88,7 @@ const Contact = () => {
           ]}
         />
       </div>
-      <section className="flex  md:flex-row flex-col my-8">
+      <section className="flex  md:flex-row flex-col my-8 px-10">
         <div className="flex-1">
           <ContactInfo />
         </div>
