@@ -76,14 +76,6 @@ const Contact = () => {
           );
         })}
       </div>
-      <section className="flex  md:flex-row flex-col my-8 px-10">
-        <div className="flex-1">
-          <ContactInfo />
-        </div>
-        <div className="flex-1">
-          <Form />
-        </div>
-      </section>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 'use client';
 
-import { Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import { Pagination, Scrollbar, A11y, Autoplay, Navigation } from 'swiper/modules';
 
 import { Swiper, SwiperProps, SwiperSlide } from 'swiper/react';
 
@@ -9,6 +9,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
+import 'swiper/css/navigation';
+
 import { ReactNode } from 'react';
 
 export default function Carousel({ data, ...SwiperProps }: { data: ReactNode[] } & SwiperProps) {
@@ -16,7 +18,7 @@ export default function Carousel({ data, ...SwiperProps }: { data: ReactNode[] }
     <Swiper
       className="h-full"
       // install Swiper modules
-      modules={[Pagination, Scrollbar, A11y, Autoplay]}
+      modules={[Pagination, Scrollbar, A11y, Autoplay, Navigation]}
       spaceBetween={50}
       slidesPerView={3}
       autoplay
