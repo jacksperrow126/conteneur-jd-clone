@@ -4,9 +4,9 @@ import Form from '@/app/components/contact/form';
 
 const Contact = () => {
   return (
-    <div className="px-32">
+    <div className="">
       <Breadcrumb title="Contact" />
-      <section className="flex  md:flex-row flex-col my-8">
+      <section className="flex  md:flex-row flex-col my-8 md:px-32 px-4 ">
         <div className="flex-1">
           <ContactInfo />
         </div>

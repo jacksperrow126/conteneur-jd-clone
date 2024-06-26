@@ -38,7 +38,7 @@ const Footer = () => {
               <p className="text-gray-80 my-2">{t('Footer_4')}</p>
               <p className="text-gray-80 my-2 py-2 border-t-[2px] border-gray-80">{t('Footer_5')}</p>
             </div>
-            <div className="flex-1 m-4 mx-8">
+            <div className="flex-1 m-4 md:mx-8">
               <p className="text-white my-4">{t('Footer_6')}</p>
               <p className="text-gray-80 my-2">{t('Service_1')}</p>
               <p className="text-gray-80 my-2">{t('Service_2')}</p>

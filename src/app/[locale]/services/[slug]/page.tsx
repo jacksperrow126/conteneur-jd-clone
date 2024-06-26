@@ -29,32 +29,17 @@ const Contact = () => {
           />
         </div>
         <div data-aos="fade-right" className="m-auto col-span-6 md:col-span-7" data-aos-delay="1000">
-          <p className="text-primary">ON FAIT DU SUR MESURE</p>
-          <h1 className="text-[30px] font-bold my-4">La modification de conteneur c&apos;est pratique pour vous.</h1>
-          <p className="text-xl">
-            Découvrez nos services de modification de conteneur de marchandise sur mesure, conçus pour répondre à vos
-            besoins spécifiques. Que ce soit l&apos;aménagement intérieur pour optimiser l&apos;espace de stockage,
-            l&apos;installation de systèmes de refroidissement pour les produits sensibles ou la création de
-            compartiments sécurisés, notre équipe expérimentée est là pour vous fournir des solutions sur mesure. Avec
-            notre expertise, vous pouvez améliorer votre efficacité logistique, assurer la sécurité de vos marchandises
-            et répondre aux exigences spécifiques de votre activité.
-          </p>
+          <p className="text-primary">{t('Key_1')}</p>
+          <h1 className="text-[30px] font-bold my-4">{t('Key_2')}</h1>
+          <p className="text-xl">{t('Key_3')}</p>
         </div>
       </div>
       <Banner />
       <div className="md:grid  block grid-cols-12 my-16 gap-10  md:px-32 px-10">
         <div data-aos="fade-right" className="m-auto col-span-6 md:col-span-7" data-aos-delay="1000">
-          <p className="text-primary">ACHETEZ-LE NEUF OU USAGÉ</p>
-          <h1 className="text-[30px] font-bold my-4">Caractéristiques du conteneur 20 pieds</h1>
-          {[
-            'Ils sont entièrement construits en acier Corten, connu pour sa résistance à la corrosion.',
-            'Leur contreplaqué répond aux normes de qualité marine.',
-            'Ils sont fabriqués conformément aux spécifications ISO pour garantir leur qualité.',
-            'Bien que le lockbox sécurisé ne soit pas inclus, d&apos;autres mesures de sécurité sont prévues.',
-            'La plupart des unités sont équipées de poches de chariot élévateur pour faciliter leur manipulation.',
-            'Des aérations latérales sont intégrées pour favoriser la circulation de l&apos;air.',
-            'Certains modèles bénéficient d&apos;une porte facile à ouvrir, pour plus de praticité.',
-          ].map((item, idx) => {
+          <p className="text-primary">{t('Key_4')}</p>
+          <h1 className="text-[30px] font-bold my-4">{t('Key_5')}</h1>
+          {[t('Key_6'), t('Key_7'), t('Key_8'), t('Key_9'), t('Key_10'), t('Key_11'), t('Key_12')].map((item, idx) => {
             return (
               <div key={idx} className="flex items-center">
                 <svg
@@ -116,25 +101,13 @@ const Contact = () => {
             <Carousel
               data={[
                 <div key="1">
-                  <h1 className="text-[30px] font-bold my-4 text-center px-20">
-                    La hauteur supplémentaire du High Cube permet d&apos;exploiter efficacement l&apos;espace vertical
-                    du conteneur, offrant ainsi un volume de chargement plus important par rapport à un conteneur
-                    standard.{' '}
-                  </h1>
+                  <h1 className="text-[30px] font-bold my-4 text-center px-20">{t('Key_13')}</h1>
                 </div>,
                 <div key="2">
-                  <h1 className="text-[30px] font-bold my-4 text-center px-20">
-                    Les conteneurs de 40 pieds High Cube sont conformes aux normes internationales. Ils sont compatibles
-                    avec les infrastructures de transport maritimes, ferroviaires et routières, ce qui facilite leur et
-                    leur transfert d&apos;un mode de transport à un autre.
-                  </h1>
+                  <h1 className="text-[30px] font-bold my-4 text-center px-20">{t('Key_14')}</h1>
                 </div>,
                 <div key="3">
-                  <h1 className="text-[30px] font-bold my-4 text-center px-20">
-                    L&apos;utilisation de conteneurs High Cube permet de réduire les coûts de transport en maximisant
-                    l&apos;espace de chargement. Le fait de pouvoir transporter davantage de marchandises dans un seul
-                    conteneur réduit le nombre de conteneurs nécessaires
-                  </h1>
+                  <h1 className="text-[30px] font-bold my-4 text-center px-20">{t('Key_15')}</h1>
                 </div>,
               ]}
               slidesPerView={1}
@@ -145,23 +118,17 @@ const Contact = () => {
         </div>
       </div>
       <div className=" md:px-32  pb-10 pt-20 bg-[#f7f7f7] px-10">
-        <p className="text-primary">EN RÉSUMÉ</p>
-        <h1 className="text-[30px] font-bold my-4">Le conteneur 20 pieds est standard et polyvalent</h1>
-        <p>
-          En résumé, les conteneurs 20 pieds standards sont des équipements de transport intermodal populaire et
-          polyvalent. Sa taille standard, sa commodité et son efficacité en font un choix idéal pour le transport et le
-          stockage de marchandises pour les entreprises et les particuliers. Les conteneurs peuvent être utilisés pour
-          transporter une grande variété de marchandises et peuvent être équipés pour répondre aux besoins spécifiques
-          de chaque entreprise ou individu.
-        </p>
+        <p className="text-primary">{t('Key_16')}</p>
+        <h1 className="text-[30px] font-bold my-4">{t('Key_17')}</h1>
+        <p>{t('Key_18')}</p>
         <div className="overflow-auto">
           <div className="table w-full min-w-[650px] my-10 ">
             <div className="table-header-group ">
               <div className="table-row bg-[#4D4E50] text-white font-bold text-xl">
-                <div className="table-cell text-left p-4">EXTÉRIEURS</div>
-                <div className="table-cell text-left p-4">INTÉRIEUR</div>
-                <div className="table-cell text-left p-4">PORTE</div>
-                <div className="table-cell text-left p-4">CAPACITÉ</div>
+                <div className="table-cell text-left p-4">{t('Key_19')}</div>
+                <div className="table-cell text-left p-4">{t('Key_20')}</div>
+                <div className="table-cell text-left p-4">{t('Key_21')}</div>
+                <div className="table-cell text-left p-4">{t('Key_22')}</div>
               </div>
             </div>
             <div className="table-row-group ">

@@ -3,13 +3,15 @@ import Breadcrumb from '@/app/components/common/breadcrumb';
 import Carousel from '@/app/components/common/carousel';
 import ContactInfo from '@/app/components/contact/contact-info';
 import Form from '@/app/components/contact/form';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
 const Contact = () => {
+  const t = useTranslations('Modification');
   return (
     <div className="">
-      <Breadcrumb title="Contact" />
+      <Breadcrumb title={t('Title')} />
       <div className=" grid grid-cols-1 lg:grid-cols-2 mt-16 gap-10 px-10">
         <div>
           <Image
@@ -28,32 +30,28 @@ const Contact = () => {
         <Banner />
       </div>
       <div className="max-[850px]:block flex justify-between items-center  min-h-[232px] bg-primary py-16 px-16 mt-16">
-        <p className="text-[30px] font-bold text-white"> FAITES MODIFIER VOTRE CONTENEUR AUJOURD&apos;HUI !</p>
+        <p className="text-[30px] font-bold text-white"> {t('Key_1')}</p>
         <button className="max-[850px]:ml-0 ml-10 max-[850px]:mt-10 p-4 max-w-[270px]  bg-white font-bold text-xl">
-          OBTENIR UN DEVIS
+          {t('Key_2')}
         </button>
       </div>
       <div className=" grid grid-cols-1 my-16 gap-10 px-10">
         {[
           {
-            title: 'Porte Roll Up:',
-            desription:
-              'Nous proposons un service professionnel d&apos;installation de portes roll-up sur les conteneurs de marchandise. Nous offrons une gamme de tailles de porte roll-up, notamment 6&apos;, 7, 8&apos; et 10&apos;, pour répondre aux besoins spécifiques de chacun nos clients.',
+            title: t('Key_4'),
+            desription: t('Key_3'),
           },
           {
-            title: 'Porte dhomme :',
-            desription:
-              'Nous proposons un service professionnel d&apos;installation de portes roll-up sur les conteneurs de marchandise. Nous offrons une gamme de tailles de porte roll-up, notamment 6&apos;, 7, 8&apos; et 10&apos;, pour répondre aux besoins spécifiques de chacun nos clients.',
+            title: t('Key_5'),
+            desription: t('Key_3'),
           },
           {
-            title: 'Fenêtre :',
-            desription:
-              'Nous proposons un service professionnel d&apos;installation de portes roll-up sur les conteneurs de marchandise. Nous offrons une gamme de tailles de porte roll-up, notamment 6&apos;, 7, 8&apos; et 10&apos;, pour répondre aux besoins spécifiques de chacun nos clients.',
+            title: t('Key_6'),
+            desription: t('Key_3'),
           },
           {
-            title: 'Cadenas en D:',
-            desription:
-              'Nous proposons un service professionnel d&apos;installation de portes roll-up sur les conteneurs de marchandise. Nous offrons une gamme de tailles de porte roll-up, notamment 6&apos;, 7, 8&apos; et 10&apos;, pour répondre aux besoins spécifiques de chacun nos clients.',
+            title: t('Key_7'),
+            desription: t('Key_3'),
           },
         ].map((item, idx) => {
           return (
